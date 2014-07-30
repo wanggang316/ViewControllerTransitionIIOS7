@@ -11,6 +11,11 @@
 		D6503AF41988DFC200957801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6503AF31988DFC200957801 /* AppDelegate.m */; };
 		D6503AF61988DFC200957801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6503AF51988DFC200957801 /* Images.xcassets */; };
 		D6503B021988DFC200957801 /* ViewControllerTransitionIIOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6503B011988DFC200957801 /* ViewControllerTransitionIIOS7Tests.m */; };
+		D6503B0D1988DFE800957801 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6503B0C1988DFE800957801 /* ModelViewController.m */; };
+		D6503B101988E2CB00957801 /* BouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6503B0F1988E2CB00957801 /* BouncePresentAnimation.m */; };
+		D6E816AA1988ED8000579D36 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E816A91988ED8000579D36 /* MainViewController.m */; };
+		D6E816AD198901BC00579D36 /* SwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E816AC198901BC00579D36 /* SwipeUpInteractiveTransition.m */; };
+		D6E816B019890A6600579D36 /* NormalDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E816AF19890A6600579D36 /* NormalDismissAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,16 @@
 		D6503AFB1988DFC200957801 /* ViewControllerTransitionIIOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerTransitionIIOS7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6503B001988DFC200957801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6503B011988DFC200957801 /* ViewControllerTransitionIIOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTransitionIIOS7Tests.m; sourceTree = "<group>"; };
+		D6503B0B1988DFE800957801 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		D6503B0C1988DFE800957801 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		D6503B0E1988E2CB00957801 /* BouncePresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncePresentAnimation.h; sourceTree = "<group>"; };
+		D6503B0F1988E2CB00957801 /* BouncePresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncePresentAnimation.m; sourceTree = "<group>"; };
+		D6E816A81988ED8000579D36 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D6E816A91988ED8000579D36 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D6E816AB198901BC00579D36 /* SwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		D6E816AC198901BC00579D36 /* SwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		D6E816AE19890A6600579D36 /* NormalDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDismissAnimation.h; sourceTree = "<group>"; };
+		D6E816AF19890A6600579D36 /* NormalDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDismissAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,16 @@
 				D6503AF31988DFC200957801 /* AppDelegate.m */,
 				D6503AF51988DFC200957801 /* Images.xcassets */,
 				D6503AEE1988DFC200957801 /* Supporting Files */,
+				D6503B0B1988DFE800957801 /* ModelViewController.h */,
+				D6503B0C1988DFE800957801 /* ModelViewController.m */,
+				D6503B0E1988E2CB00957801 /* BouncePresentAnimation.h */,
+				D6503B0F1988E2CB00957801 /* BouncePresentAnimation.m */,
+				D6E816A81988ED8000579D36 /* MainViewController.h */,
+				D6E816A91988ED8000579D36 /* MainViewController.m */,
+				D6E816AB198901BC00579D36 /* SwipeUpInteractiveTransition.h */,
+				D6E816AC198901BC00579D36 /* SwipeUpInteractiveTransition.m */,
+				D6E816AE19890A6600579D36 /* NormalDismissAnimation.h */,
+				D6E816AF19890A6600579D36 /* NormalDismissAnimation.m */,
 			);
 			path = ViewControllerTransitionIIOS7;
 			sourceTree = "<group>";
@@ -205,8 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6503B101988E2CB00957801 /* BouncePresentAnimation.m in Sources */,
 				D6503AF41988DFC200957801 /* AppDelegate.m in Sources */,
+				D6E816B019890A6600579D36 /* NormalDismissAnimation.m in Sources */,
+				D6503B0D1988DFE800957801 /* ModelViewController.m in Sources */,
+				D6E816AA1988ED8000579D36 /* MainViewController.m in Sources */,
 				D6503AF11988DFC200957801 /* main.m in Sources */,
+				D6E816AD198901BC00579D36 /* SwipeUpInteractiveTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -298,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -311,6 +341,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ViewControllerTransitionIIOS7/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -322,6 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ViewControllerTransitionIIOS7/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -340,6 +372,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ViewControllerTransitionIIOS7Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +389,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ViewControllerTransitionIIOS7Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,6 +416,7 @@
 				D6503B071988DFC200957801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6503B081988DFC200957801 /* Build configuration list for PBXNativeTarget "ViewControllerTransitionIIOS7Tests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +425,7 @@
 				D6503B0A1988DFC200957801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
